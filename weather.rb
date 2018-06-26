@@ -7,7 +7,7 @@ weather = {
  }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash.
-def city_weather_info(weather)
+def location(weather)
 	weather[:city]
 end
 
