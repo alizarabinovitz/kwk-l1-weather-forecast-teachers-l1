@@ -25,7 +25,7 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 def iterate(weather)
   weather.each do |key, value|
-    "The city is #{location(weather)}. The description is #{description(weather)}. The temperature is #{weather[:temperature_farenheit]}."
+    puts "The #{key} is #{value}."
   end
 end
 
